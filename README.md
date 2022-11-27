@@ -12,9 +12,9 @@ Desafio:
   
 Resolução:
 
-  const seuNome = prompt ("Qual o seu nome?");
-	const suaIdade = prompt ("Quantos anos você tem?");
-	const linguagem = prompt ("Qual linguagem de programação você está estudando?");
-  const apresentacao = '"Olá ${meuNome}, você tem ${minhaIdade} anos e já está aprendendo ${linguagem}!"'
+const nome = prompt ("Qual o seu nome?");<br /><br />
+const idade = prompt ("Quantos anos você tem?");<br /><br />
+const linguagem = prompt ("Qual linguagem de programação você está estudando?");<br /><br />
+const apresentacao = 'Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!'
   
   alerta(apresentacao);
