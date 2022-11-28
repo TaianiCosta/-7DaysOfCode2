@@ -4,17 +4,26 @@
 
 Desafio:
 
-	- Qual o seu nome?
-	- Quantos anos você tem?
-	- Qual linguagem de programação você está estudando?
+Exercício Opcional:
 
-	"Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
-  
+Você gosta de estudar [linguagem]? Responda com o número 1 para SIM ou 2 para NÃO.
+
+1 > Muito bom! Continue estudando e você terá muito sucesso.
+
+2 > Ahh que pena... Já tentou aprender outras linguagens?
+
 Resolução:
 
-const nome = prompt ("Qual o seu nome?");<br /><br />
-const idade = prompt ("Quantos anos você tem?");<br /><br />
-const linguagem = prompt ("Qual linguagem de programação você está estudando?");<br /><br />
-const apresentacao = 'Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!'
-  
-  alerta(apresentacao);
+const pergunta = prompt ('Você gosta de estudar [linguagem]?');
+
+const resposta1 = ('Muito bom! Continue estudando e você terá muito sucesso.');
+
+const resposta2 = ('Ahh que pena... Já tentou aprender outras linguagens?');
+
+if (pergunta == 1) {
+  alert (resposta1);
+}
+
+if (pergunta == 2) {
+  alert (resposta2);
+}
